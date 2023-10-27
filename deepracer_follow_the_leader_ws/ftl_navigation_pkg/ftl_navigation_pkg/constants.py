@@ -73,7 +73,7 @@ class ActionValues():
        the possible actions that can be sent to servo, pertaining to
        the angle and throttle.
     """
-    FORWARD = 0.75
+    FORWARD = 0.8
     REVERSE = -0.3
     FAST_LEFT = 0.9
     SLOW_LEFT = 0.5
