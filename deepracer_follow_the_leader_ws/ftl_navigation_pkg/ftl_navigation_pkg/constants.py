@@ -50,13 +50,13 @@ class DeltaValueMap():
 
     """
     REVERSE_DELTA_Y = 0.11
-    FORWARD_DELTA_Y = -0.06
+    FORWARD_DELTA_Y = -0.10
     REVERSE_RIGHT_DELTA_X = -0.25
     REVERSE_LEFT_DELTA_X = 0.25
-    FORWARD_RIGHT_DELTA_X = 0.13
-    FORWARD_FAST_RIGHT_DELTA_X = 0.33
-    FORWARD_LEFT_DELTA_X = -0.13
-    FORWARD_FAST_LEFT_DELTA_X = -0.33
+    FORWARD_RIGHT_DELTA_X = 0.05
+    FORWARD_FAST_RIGHT_DELTA_X = 0.15
+    FORWARD_LEFT_DELTA_X = -0.05
+    FORWARD_FAST_LEFT_DELTA_X = -0.15
 
 
 class ActionSpaceKeys():
@@ -73,7 +73,7 @@ class ActionValues():
        the possible actions that can be sent to servo, pertaining to
        the angle and throttle.
     """
-    FORWARD = 0.8
+    FORWARD = .9
     REVERSE = -0.3
     FAST_LEFT = 0.9
     SLOW_LEFT = 0.5
